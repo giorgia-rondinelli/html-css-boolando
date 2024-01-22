@@ -1,0 +1,107 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenitore{
+  max-width: 1300px;
+  width: 1300px;
+  background-color: aqua;
+  height: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.card{
+  background-color: bisque;
+  max-width: 30%;
+  height:50%;
+  position: relative;
+  margin-right: 15px;
+}
+.card :hover .seconda-immagine{
+  display: block;
+}
+.card img{
+  width: 100%;
+}
+
+.seconda-immagine{
+  display: none;
+  position: absolute;
+  top: 0;
+}
+
+.levi{
+  position: relative;
+}
+.cuore{
+ 
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  right: 0;
+  top: 5px;
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cuore.nero{
+   background-color: white;
+}
+/* .cuore.rosso{
+  color: red;
+  display: none;
+}
+.cuore.nero :hover .cuore.rosso{
+  display: block; 
+ } */
+
+
+
+.etichetta{
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 5px;
+  position: absolute
+}
+.sale{
+  background-color: red;
+  width:40px;
+  left: 0;
+  bottom: 30px;
+}
+.sostenibilità{
+  background-color: green;
+  left: 45px;
+  bottom: 30px;
+}
+.marca{
+  font-size: 12px;
+}
+.descrizione{
+  font-weight: 600;
+  font-size:0,8em;
+}
+
+.prezzo{
+  font-size: 12px;
+  
+}
+.prezzo.scontato{
+  color: red;
+  font-weight: 600;
+}
+.prezzo.originale{
+  text-decoration: line-through;
+
+}
+
+
