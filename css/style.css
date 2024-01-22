@@ -15,14 +15,14 @@ body{
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between
 
 }
 .card{
-  background-color: bisque;
-  max-width: 30%;
+  max-width: 32%;
   height:50%;
   position: relative;
-  margin-right: 15px;
+ 
 }
 .card :hover .seconda-immagine{
   display: block;
@@ -103,5 +103,12 @@ body{
   text-decoration: line-through;
 
 }
+
+.sostenibilità-singola{
+  background-color: green;
+  bottom: 30px;
+  position: absolute;
+}
+
 
 
